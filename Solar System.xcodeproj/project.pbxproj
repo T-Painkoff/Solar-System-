@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F7CE9111B99926B00D2F675 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7CE9101B99926B00D2F675 /* AppDelegate.swift */; };
+		1F7CE9131B99926B00D2F675 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F7CE9121B99926B00D2F675 /* art.scnassets */; };
+		1F7CE9151B99926B00D2F675 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7CE9141B99926B00D2F675 /* GameViewController.swift */; };
+		1F7CE9181B99926B00D2F675 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F7CE9161B99926B00D2F675 /* Main.storyboard */; };
+		1F7CE91A1B99926B00D2F675 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F7CE9191B99926B00D2F675 /* Images.xcassets */; };
+		1F7CE91D1B99926B00D2F675 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F7CE91B1B99926B00D2F675 /* LaunchScreen.xib */; };
+		1F7CE9291B99926B00D2F675 /* Solar_SystemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7CE9281B99926B00D2F675 /* Solar_SystemTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F7CE9231B99926B00D2F675 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F7CE9031B99926B00D2F675 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F7CE90A1B99926B00D2F675;
+			remoteInfo = "Solar System";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F7CE90B1B99926B00D2F675 /* Solar System.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Solar System.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F7CE90F1B99926B00D2F675 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F7CE9101B99926B00D2F675 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1F7CE9121B99926B00D2F675 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		1F7CE9141B99926B00D2F675 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		1F7CE9171B99926B00D2F675 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F7CE9191B99926B00D2F675 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1F7CE91C1B99926B00D2F675 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1F7CE9221B99926B00D2F675 /* Solar SystemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Solar SystemTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F7CE9271B99926B00D2F675 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F7CE9281B99926B00D2F675 /* Solar_SystemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solar_SystemTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F7CE9081B99926B00D2F675 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F7CE91F1B99926B00D2F675 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F7CE9021B99926B00D2F675 = {
+			isa = PBXGroup;
+			children = (
+				1F7CE90D1B99926B00D2F675 /* Solar System */,
+				1F7CE9251B99926B00D2F675 /* Solar SystemTests */,
+				1F7CE90C1B99926B00D2F675 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F7CE90C1B99926B00D2F675 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F7CE90B1B99926B00D2F675 /* Solar System.app */,
+				1F7CE9221B99926B00D2F675 /* Solar SystemTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F7CE90D1B99926B00D2F675 /* Solar System */ = {
+			isa = PBXGroup;
+			children = (
+				1F7CE9101B99926B00D2F675 /* AppDelegate.swift */,
+				1F7CE9121B99926B00D2F675 /* art.scnassets */,
+				1F7CE9141B99926B00D2F675 /* GameViewController.swift */,
+				1F7CE9161B99926B00D2F675 /* Main.storyboard */,
+				1F7CE9191B99926B00D2F675 /* Images.xcassets */,
+				1F7CE91B1B99926B00D2F675 /* LaunchScreen.xib */,
+				1F7CE90E1B99926B00D2F675 /* Supporting Files */,
+			);
+			path = "Solar System";
+			sourceTree = "<group>";
+		};
+		1F7CE90E1B99926B00D2F675 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F7CE90F1B99926B00D2F675 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1F7CE9251B99926B00D2F675 /* Solar SystemTests */ = {
+			isa = PBXGroup;
+			children = (
+				1F7CE9281B99926B00D2F675 /* Solar_SystemTests.swift */,
+				1F7CE9261B99926B00D2F675 /* Supporting Files */,
+			);
+			path = "Solar SystemTests";
+			sourceTree = "<group>";
+		};
+		1F7CE9261B99926B00D2F675 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F7CE9271B99926B00D2F675 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F7CE90A1B99926B00D2F675 /* Solar System */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F7CE92C1B99926B00D2F675 /* Build configuration list for PBXNativeTarget "Solar System" */;
+			buildPhases = (
+				1F7CE9071B99926B00D2F675 /* Sources */,
+				1F7CE9081B99926B00D2F675 /* Frameworks */,
+				1F7CE9091B99926B00D2F675 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Solar System";
+			productName = "Solar System";
+			productReference = 1F7CE90B1B99926B00D2F675 /* Solar System.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1F7CE9211B99926B00D2F675 /* Solar SystemTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F7CE92F1B99926B00D2F675 /* Build configuration list for PBXNativeTarget "Solar SystemTests" */;
+			buildPhases = (
+				1F7CE91E1B99926B00D2F675 /* Sources */,
+				1F7CE91F1B99926B00D2F675 /* Frameworks */,
+				1F7CE9201B99926B00D2F675 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F7CE9241B99926B00D2F675 /* PBXTargetDependency */,
+			);
+			name = "Solar SystemTests";
+			productName = "Solar SystemTests";
+			productReference = 1F7CE9221B99926B00D2F675 /* Solar SystemTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F7CE9031B99926B00D2F675 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Travis ";
+				TargetAttributes = {
+					1F7CE90A1B99926B00D2F675 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					1F7CE9211B99926B00D2F675 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 1F7CE90A1B99926B00D2F675;
+					};
+				};
+			};
+			buildConfigurationList = 1F7CE9061B99926B00D2F675 /* Build configuration list for PBXProject "Solar System" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F7CE9021B99926B00D2F675;
+			productRefGroup = 1F7CE90C1B99926B00D2F675 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F7CE90A1B99926B00D2F675 /* Solar System */,
+				1F7CE9211B99926B00D2F675 /* Solar SystemTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F7CE9091B99926B00D2F675 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F7CE91D1B99926B00D2F675 /* LaunchScreen.xib in Resources */,
+				1F7CE91A1B99926B00D2F675 /* Images.xcassets in Resources */,
+				1F7CE9131B99926B00D2F675 /* art.scnassets in Resources */,
+				1F7CE9181B99926B00D2F675 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F7CE9201B99926B00D2F675 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F7CE9071B99926B00D2F675 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F7CE9151B99926B00D2F675 /* GameViewController.swift in Sources */,
+				1F7CE9111B99926B00D2F675 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F7CE91E1B99926B00D2F675 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F7CE9291B99926B00D2F675 /* Solar_SystemTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F7CE9241B99926B00D2F675 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F7CE90A1B99926B00D2F675 /* Solar System */;
+			targetProxy = 1F7CE9231B99926B00D2F675 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1F7CE9161B99926B00D2F675 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F7CE9171B99926B00D2F675 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1F7CE91B1B99926B00D2F675 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F7CE91C1B99926B00D2F675 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F7CE92A1B99926B00D2F675 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F7CE92B1B99926B00D2F675 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F7CE92D1B99926B00D2F675 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Solar System/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1F7CE92E1B99926B00D2F675 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Solar System/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1F7CE9301B99926B00D2F675 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Solar SystemTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Solar System.app/Solar System";
+			};
+			name = Debug;
+		};
+		1F7CE9311B99926B00D2F675 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Solar SystemTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Solar System.app/Solar System";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F7CE9061B99926B00D2F675 /* Build configuration list for PBXProject "Solar System" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F7CE92A1B99926B00D2F675 /* Debug */,
+				1F7CE92B1B99926B00D2F675 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F7CE92C1B99926B00D2F675 /* Build configuration list for PBXNativeTarget "Solar System" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F7CE92D1B99926B00D2F675 /* Debug */,
+				1F7CE92E1B99926B00D2F675 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1F7CE92F1B99926B00D2F675 /* Build configuration list for PBXNativeTarget "Solar SystemTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F7CE9301B99926B00D2F675 /* Debug */,
+				1F7CE9311B99926B00D2F675 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F7CE9031B99926B00D2F675 /* Project object */;
+}
